@@ -1,6 +1,6 @@
 FROM ubuntu-debootstrap:15.10
 
-dd envMAINTAINER Wojciech Wójcik <wojtaswojcik@gmail.com>
+MAINTAINER Wojciech Wójcik <wojtaswojcik@gmail.com>
 
 ENV PATH /usr/local/bin:$PATH
 
