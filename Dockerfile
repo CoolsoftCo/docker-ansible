@@ -1,5 +1,8 @@
 FROM ubuntu-debootstrap:15.10
-MAINTAINER Wojciech Wójcik <wojtaswojcik@gmail.com>
+
+dd envMAINTAINER Wojciech Wójcik <wojtaswojcik@gmail.com>
+
+ENV PATH /usr/local/bin:$PATH
 
 RUN apt-get update \
  && apt-get install -yqq \
